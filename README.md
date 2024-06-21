@@ -29,7 +29,7 @@ from equivalence_relation import check_reflexive, check_symmetric, check_transit
 
 A = {1, 2, 3, 4}  # 관계가 정의된 집합
 R = {(1, 1), (1, 3), (2, 2), (3, 3), (3, 1), (3, 4), (4, 4), (4, 3)}  # 정의된 관계
-print(f"반사적: {check_reflexive(R, A)}")
-print(f"대칭적: {check_symmetric(R)}")
-print(f"추이적: {check_transitive(R)}")
+print(f"반사: {check_reflexive(R, A)}")
+print(f"대칭: {check_symmetric(R)}")
+print(f"추이: {check_transitive(R)}")
 print(f"동치 관계: {check_equivalence(R, A)}")
